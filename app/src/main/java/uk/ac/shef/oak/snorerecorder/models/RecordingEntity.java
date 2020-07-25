@@ -3,7 +3,7 @@ package uk.ac.shef.oak.snorerecorder.models;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "recording_table")
+@Entity
 public class RecordingEntity {
 
     @PrimaryKey(autoGenerate = true)
